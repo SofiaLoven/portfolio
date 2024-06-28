@@ -1,5 +1,6 @@
 import Heading from "@/components/Heading";
 import ProjectList from "@/components/projects/ProjectList";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <main className=" max-w-screen-md">
           <ProjectList />
         </main>
+        <Footer />
       </div>
     </body>
   );

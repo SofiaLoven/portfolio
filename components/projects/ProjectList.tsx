@@ -5,7 +5,7 @@ import Card from "./Card";
 const ProjectList = () => {
   return (
     <>
-      <h2 className="text-center md:text-start font-semibold text-lg">
+      <h2 className="text-center md:text-start font-semibold text-lg pl-16">
         {"> Projects "}
       </h2>
       <ul className="flex gap-16 md:gap-8 flex-col items-center p-16">
