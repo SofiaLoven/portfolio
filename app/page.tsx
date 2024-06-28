@@ -3,12 +3,13 @@ import ProjectList from "@/components/projects/ProjectList";
 
 export default function Home() {
   return (
-    <body className="font-mono text-slate-700 flex min-h-screen flex-col items-center justify-between p-8">
-      <Heading />
-      <main>
-        <h2 className=" font-semibold text-lg mb-8">{"> Projects "}</h2>
-        <ProjectList />
-      </main>
+    <body className="min-h-screen min-w-full">
+      <div className="min-h-screen p-24 md:p-12 max-w-screen-md min-w-full flex flex-col items-center ">
+        <Heading />
+        <main className=" max-w-screen-md">
+          <ProjectList />
+        </main>
+      </div>
     </body>
   );
 }

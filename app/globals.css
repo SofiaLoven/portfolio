@@ -9,8 +9,9 @@
 }
 
 body {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  background-color: rgb(241 245 249);
+  font-family: monospace;
+  color: rgb(51 65 85);
 }
 
 @layer utilities {

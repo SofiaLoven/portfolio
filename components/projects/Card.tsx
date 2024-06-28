@@ -1,4 +1,5 @@
 import { Project } from "@/types";
+import Arrow from "@/public/images/Arrow.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,14 +8,14 @@ const Card = ({ info }: { info: Project }) => {
   return (
     <li
       key={id}
-      className="flex justify-between bg-white rounded shadow-xl -space-x-8"
+      className="flex flex-col items-center md:items-start bg-white rounded shadow-xl md:p-8 relative md:w-auto"
     >
       <Image
         alt={`Picture of the project ${title}`}
         src={img}
-        className="rounded-l"
+        className="md:hidden rounded-t"
       />
-      <div className="p-12 flex flex-col justify-between z-10 bg-white rounded-r">
+      <div className=" flex flex-col gap-4 bg-white rounded-b md:rounded-r p-8 md:p-0 md:w-3/4">
         <h3 className="font-semibold text-lg">{title}</h3>
         <span className="text-sm leading-relaxed text-wrap">{description}</span>
         <div className="flex justify-evenly gap-2 flex-pretty">
@@ -26,9 +27,9 @@ const Card = ({ info }: { info: Project }) => {
             );
           })}
         </div>
-        <div className="flex gap-8">
+        <div className="flex justify-between">
           <Link
-            className="flex gap-2 text-xs bg-green-200 rounded py-1.5 px-3 shadow hover:shadow-lg hover:bg-green-100 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
+            className="flex items-center gap-2 text-xs bg-green-200 rounded py-1.5 px-3 shadow hover:shadow-lg hover:bg-green-100 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
             href={links.preview}
             target="blank"
           >
@@ -54,7 +55,7 @@ const Card = ({ info }: { info: Project }) => {
             </svg>
           </Link>
           <Link
-            className="flex gap-2 text-xs bg-green-200 rounded py-1.5 px-3 shadow hover:shadow-lg hover:bg-green-100 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
+            className="flex items-center gap-2 text-xs bg-green-200 rounded py-1.5 px-3 shadow hover:shadow-lg hover:bg-green-100 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
             href={links.github}
             target="blank"
           >
@@ -69,6 +70,16 @@ const Card = ({ info }: { info: Project }) => {
           </Link>
         </div>
       </div>
+      <Image
+        alt={`Picture of the project ${title}`}
+        src={img}
+        className="hidden md:block rounded shadow-lg absolute top-8 -right-16 w-52 rotate-6"
+      />
+      <Image
+        alt="Pointing arrow"
+        src={Arrow}
+        className="hidden md:block absolute w-24 -top-4 right-1/3 z-10 rotate-45"
+      />
     </li>
   );
 };

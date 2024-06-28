@@ -1,5 +1,5 @@
-import eWallet from "../images/Skärmbild 2024-06-26 114504.png";
-import wedding from "../images/wedding.png";
+import eWallet from "@/public/images/Skärmbild 2024-06-26 114504.png";
+import wedding from "@/public/images/wedding.png";
 import { v4 as uuidv4 } from "uuid";
 import { Project } from "../types";
 

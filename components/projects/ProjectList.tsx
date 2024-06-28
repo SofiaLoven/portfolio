@@ -4,11 +4,16 @@ import Card from "./Card";
 
 const ProjectList = () => {
   return (
-    <ul className="flex gap-8 flex-col items-center">
-      {Projects.map((project: Project) => {
-        return <Card info={project} />;
-      })}
-    </ul>
+    <>
+      <h2 className="text-center md:text-start font-semibold text-lg">
+        {"> Projects "}
+      </h2>
+      <ul className="flex gap-16 md:gap-8 flex-col items-center p-16">
+        {Projects.map((project: Project) => {
+          return <Card info={project} />;
+        })}
+      </ul>
+    </>
   );
 };
 
