@@ -8,10 +8,15 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: rgb(241 245 249);
   font-family: monospace;
-  color: rgb(51 65 85);
+  color: rgb(51, 65, 85);
 }
 
 @layer utilities {

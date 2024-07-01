@@ -18,7 +18,7 @@ const Card = ({ info }: { info: Project }) => {
       <div className=" flex flex-col gap-4 bg-white rounded-b md:rounded-r p-8 md:p-0 md:w-3/4">
         <h3 className="font-semibold text-lg">{title}</h3>
         <span className="text-sm leading-relaxed text-wrap">{description}</span>
-        <div className="flex justify-evenly gap-2 flex-pretty">
+        <div className="flex justify-evenly gap-2 flex-wrap">
           {skills.map((skill) => {
             return (
               <span className="p-1 rounded border-2 border-green-200 text-gray-800 text-xs">
@@ -29,7 +29,7 @@ const Card = ({ info }: { info: Project }) => {
         </div>
         <div className="flex justify-between">
           <Link
-            className="flex items-center gap-2 text-xs bg-green-200 rounded py-1.5 px-3 shadow hover:shadow-lg hover:bg-green-100 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
+            className="flex items-center text-xs md:gap-2 bg-green-200 rounded py-1.5 px-3 shadow hover:shadow-lg hover:bg-green-100 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
             href={links.preview}
             target="blank"
           >
@@ -55,7 +55,7 @@ const Card = ({ info }: { info: Project }) => {
             </svg>
           </Link>
           <Link
-            className="flex items-center gap-2 text-xs bg-green-200 rounded py-1.5 px-3 shadow hover:shadow-lg hover:bg-green-100 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
+            className="flex items-center text-xs md:gap-2 bg-green-200 rounded py-1.5 px-3 shadow hover:shadow-lg hover:bg-green-100 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
             href={links.github}
             target="blank"
           >

@@ -6,7 +6,7 @@ import linkedInIcon from "@/public/images/LinkedIn_icon.svg";
 const Footer = () => {
   const { name, location, email, linkedin, github } = contactInfo;
   return (
-    <footer className="min-w-full flex flex-col gap-8 md:flex-row md:justify-between pt-16">
+    <footer className="min-w-full flex flex-col gap-8 md:flex-row md:justify-between py-16 px-8">
       <div className="flex md:flex-col gap-8">
         <span className=" font-semibold">{name}</span>
         <div className="hidden md:flex gap-4">
