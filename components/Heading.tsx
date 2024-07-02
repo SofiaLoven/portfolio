@@ -18,7 +18,7 @@ const Heading = () => {
           </h1>
           <span className="text-md max-w-80">
             {
-              "> Hi there! I am a people person, frontend developer and registered nurse. Sounds interesting? Lets talk!"
+              "> Hi there! I'm a people person, frontend developer and registered nurse. Sound interesting? Lets talk!"
             }
           </span>
         </div>

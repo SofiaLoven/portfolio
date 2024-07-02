@@ -10,7 +10,7 @@ const Projects: Project[] = [
     id: uuidv4(),
     title: "Our wedding webpage",
     description:
-      "Welcome to view our wedding webpage. We used this together with the invitations to communicate with the guests. I choose to use google forms to collect the wedding invitations. I apologize in advance because this website is in Swedish.",
+      "I made this website to complement our wedding invitations, adding extra details and updates for our guests. It includes a Google Form for easy RSVP collection. We hope you enjoy it.",
     skills: ["HTML5", "SASS", "CSS", "JavaScript", "Iframe"],
     img: wedding,
     links: {
@@ -22,7 +22,7 @@ const Projects: Project[] = [
     id: uuidv4(),
     title: "This portfolio",
     description:
-      "I made this portfolio during the summer 2024. I wanted to display my knowledge in a user friendly and nice looking website. I used Tailwind to design this to test it out.",
+      "I created this responsive portfolio website during the summer of 2024 to showcase my work. It was a great opportunity to try out Tailwind CSS for styling and layout. I hope you enjoy exploring my projects and skills.",
     skills: ["HTML5", "TailwindCSS", "Javascript", "NextJs", "Typescript"],
     img: portfolio,
     links: {
@@ -34,7 +34,7 @@ const Projects: Project[] = [
     id: uuidv4(),
     title: "The Office Wallet",
     description:
-      "This was a examinations project during my education at Nackademin. We learned about react together with redux states. Since I love the show The Office I wanted to use that as the theme. It is supposed to work as a digital wallet were you can have five cards in total. Only one of them is active and the other four can be activated if you click on it.",
+      "I created this digital wallet website during my first year of education as an assignment to learn Redux together with React. Inspired by my love for 'The Office', the site features an Office-themed design. I hope you enjoy it.",
     skills: ["HTML5", "CSS", "JavaScript", "ReactJS", "Redux", "Axios", "Vite"],
     img: eWallet,
     links: {
@@ -46,7 +46,7 @@ const Projects: Project[] = [
     id: uuidv4(),
     title: "The Star Wars Trivia",
     description:
-      "This was an object oriented assignment where we build a website to compare Star Wars characters. This was build during my first year of my education. There are a lot of things to improve, but I like to keep it as it is to se how much I have developed during this time.",
+      "I created this website as an assignment during my education. It compares Star Wars characters fetched from swapi.dev api. While it has a lot of room for improvement, I like to keep it as a benchmark for my progress.",
     skills: ["Axios", "HTML", "CSS", "SASS", "JavaScript"],
     img: starWars,
     links: {
