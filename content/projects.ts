@@ -15,7 +15,7 @@ const Projects: Project[] = [
     img: wedding,
     links: {
       github: "https://github.com/SofiaLoven/wedding",
-      preview: "http://sofiaochmaxbrollop.se/",
+      preview: "https://serene-clafoutis-3f8325.netlify.app/",
     },
   },
   {
