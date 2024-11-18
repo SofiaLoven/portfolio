@@ -14,7 +14,7 @@ const Heading = () => {
       <div className="flex flex-col justify-center  gap-12">
         <div className="flex flex-col gap-4">
           <h1 className=" text-xl font-semibold relative w-[max-content] before:absolute before:inset-0 before:bg-slate-100 before:animate-typewriter after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-slate-700">
-            {"> SOFIA LOVÉN"}
+            {"> SOFIA SUNDMAN"}
           </h1>
           <span className="text-md max-w-80">
             {
@@ -24,7 +24,7 @@ const Heading = () => {
         </div>
         <div>
           <Link
-            href="/CV_Loven_Sofia.pdf"
+            href="/CV-Sofia-Sundman.pdf"
             target="blank"
             rel="noopener noreferrer"
             locale="false"

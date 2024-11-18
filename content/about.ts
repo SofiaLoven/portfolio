@@ -1,8 +1,8 @@
 export const contactInfo = {
-  name: "Sofia Lovén",
+  name: "Sofia Sundman",
   location: "Stockholm, Sweden",
-  email: "sofia.loven93@gmail.com",
-  linkedin: "https://www.linkedin.com/in/sofia-lov%C3%A9n-2a7996234/",
+  email: "sofia.h.sundman@gmail.com",
+  linkedin: "https://www.linkedin.com/in/sofia-sundman/",
   github: "https://github.com/SofiaLoven",
 };
 
